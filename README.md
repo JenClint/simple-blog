@@ -41,6 +41,44 @@ npm run build
 npm run preview
 ```
 
+## Docker部署
+
+本项目支持使用Docker进行构建和部署。
+
+### 构建Docker镜像
+
+```bash
+docker build -t simple-blog .
+```
+
+### 运行Docker容器
+
+```bash
+docker run -d -p 8080:80 --name simple-blog-app simple-blog
+```
+
+访问 http://localhost:8080 即可查看应用。
+
+### 使用Docker Compose（可选）
+
+创建docker-compose.yml文件：
+
+```yaml
+version: '3'
+services:
+  simple-blog:
+    build: .
+    ports:
+      - "8080:80"
+    restart: always
+```
+
+运行：
+
+```bash
+docker-compose up -d
+```
+
 ## 环境变量配置
 
 项目使用不同的环境变量文件来区分开发和生产环境配置：
