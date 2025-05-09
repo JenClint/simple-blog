@@ -1,0 +1,54 @@
+// 颜色变量 - 暗色系莫兰迪风格
+$bg-color: #1F2937;
+$bg-color-light: #2D3748;
+$text-color: #E2E8F0;
+$text-color-light: #CBD5E1;
+$text-color-muted: #94A3B8;
+
+// 主题色 - 暗色系莫兰迪风格
+$primary-color: #8B5CF6;
+$primary-light: #A78BFA;
+$primary-dark: #7C3AED;
+$secondary-color: #EC4899;
+$accent-color: #10B981;
+
+// 状态颜色
+$success-color: #059669;
+$warning-color: #D97706;
+$error-color: #DC2626;
+$info-color: #0284C7;
+
+// 磨砂玻璃效果
+$glass-bg: rgba(31, 41, 55, 0.7);
+$glass-blur: 15px;
+$glass-border: 1px solid rgba(255, 255, 255, 0.1);
+
+// 阴影
+$box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+$box-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.3);
+
+// 边框
+$border-radius: 12px;
+$border-color: rgba(255, 255, 255, 0.1);
+
+// 断点
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// 动画
+$transition-time: 0.3s;
+
+// 布局相关
+$header-height: 64px;
+$footer-height: 60px;
+$sidebar-width: 240px;
+
+// 圆角
+$border-radius-sm: 4px;
+$border-radius-lg: 12px;
+
+// 阴影
+$box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+$box-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.3);
