@@ -5,7 +5,7 @@ FROM node:18-alpine as builder
 WORKDIR /app
 
 # 设置 node 阿里镜像
-RUN npm config set registry https://registry.npm.taobao.org
+RUN npm config set registry https://registry.npmmirror.com
 
 # 复制package.json和package-lock.json
 COPY package*.json ./
